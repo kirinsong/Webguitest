@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# 测试报告和日志
+reports/
+logs/
+*.log
+
+# 其他
+.DS_Store
