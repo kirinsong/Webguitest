@@ -8,21 +8,23 @@
 基于 Selenium 和 pytest 的 Web UI 自动化测试框架。
 
 ## 项目结构
-📦 Webguitest
- ┣ 📂 pages
- ┃ ┣ 📜 base_page.py
- ┃ ┗ 📜 login_page.py
- ┣ 📂 test_module
- ┃ ┗ 📜 plan_page.py
- ┣ 📂 testcases
- ┃ ┗ 📂 test_test
- ┃   ┣ 📜 test_plan.py
- ┃   ┗ 📜 test_execution.py
- ┣ 📜 conftest.py
- ┣ 📂 reports
- ┣ 📂 venv
- ┣ 📜 requirements.txt
- ┗ 📜 pytest.ini
+## 项目结构
+```
+Webguitest/
+├── pages/
+│   ├── base_page.py          # 基础页面类
+│   └── login_page.py         # 登录页面
+├── test_module/
+│   └── plan_page.py          # 计划管理页面
+├── testcases/
+│   └── test_test/
+│       ├── test_plan.py      # 计划管理测试
+│       └── test_execution.py  # 计划执行测试
+├── conftest.py               # pytest配置文件
+├── reports/                  # 测试报告目录
+├── venv/                     # Python虚拟环境
+├── requirements.txt          # 项目依赖
+└── pytest.ini               # pytest配置文件
 ```
 
 
